@@ -6,7 +6,7 @@
 
    a. Google
 
-      1. Navigate to https://developers.google.com/maps/documentation/geocoding/start
+      1. Navigate to https://developers.google.com/maps/documentation/geocoding/start.
       2. Click "Get a Key" in the upper-right and follow the instructions.
       3. Copy the provided API key.
       4. Save it into the `JSON` field `google.api_key_params.key` in `config.secret.json`.
@@ -24,9 +24,9 @@
 ## Usage
 
 ### API
-1. Run the server `./main.py serve`
+1. Run the server `./main.py serve`.
 2. `POST` to `http://localhost:6305/` (6305 for "GEOS" :P) with a `JSON` body that contains
 an address in the `"address"` field.
 
 ### CLI
-1. `./main.py get_coords [address]`
+1. `./main.py get_coords [address]`.

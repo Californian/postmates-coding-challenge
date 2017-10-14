@@ -23,7 +23,7 @@ class AddressRequestHandler(BaseHTTPRequestHandler):
 
         if "address" in data_obj:
             address = data_obj["address"]
-            coords   = address_to_coords(address)
+            coords  = address_to_coords(address)
             self.send_response(200)
             # send coordinates in response
             self.wfile.write(bytes(str(coords), "utf-8"))
